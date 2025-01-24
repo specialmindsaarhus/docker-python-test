@@ -27,7 +27,7 @@ def on_startup():
 
 @app.get("/")
 def hello():
-    return "Hello, Docker duck dock!"
+    return "Hello, Docker intergrated with github!"
 
 
 @app.post("/heroes/")
